@@ -1,6 +1,6 @@
-class SopaDeLetras:
+class SopaDeLetras: 
 
-  def __init__(self, sopa, lista):
+  def __init__(self, sopa, lista): #Deberia usar nombres más significativos, lista y sopa son muy ambiguos.
     self.sopa = sopa
     self.lista = lista
     self.direccionF = [-1,-1,0,1,1,1,0,-1]
